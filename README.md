@@ -145,3 +145,24 @@ DataNova was developed as a collaborative project, with responsibilities divided
 ## License
 
 No license has been specified yet. Please check the project's ownership and licensing requirements before selecting one.
+---
+
+## Application Screenshots
+
+### 1. Data Upload Interface
+![DataNova Data Upload](screenshots/ui01_upload.png)
+
+### 2. Data Review Interface
+![DataNova Data Review](screenshots/ui02a_review_top.png)
+
+### 3. Pipeline Execution
+![DataNova Pipeline Execution](screenshots/ui03_run.png)
+
+### 4. Model Comparison
+![DataNova Model Comparison](screenshots/ui04a_results_comparison.png)
+
+### 5. SHAP Explainability
+![DataNova SHAP Results](screenshots/ui04b_results_shap.png)
+
+### 6. Generated Report
+![DataNova Generated Report](screenshots/ui04d_results_report.png)
