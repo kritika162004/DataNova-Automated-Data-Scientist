@@ -19,6 +19,22 @@ Data science workflows often involve several time-consuming steps, from inspecti
 - **Reporting and Visualization:** Present analytical results, model comparisons, and visual insights.
 - **Interactive Application:** Provide a user interface for interacting with the analysis workflow.
 
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[Data Upload] --> B[Data Profiling and Understanding]
+    B --> C[Data Preprocessing]
+    C --> D[PSO Feature Selection]
+    D --> E[Model Training and Evaluation]
+    E --> F[Visualization and Reporting]
+
+    D --> G[Feature Selection Baselines]
+    G --> E
+```
+
+The pipeline combines data preparation, optimization-based feature selection, predictive modeling, and reporting in a modular workflow. The PSO component searches for a compact feature subset, which is evaluated alongside baseline selection methods.  
+
 ## My Contribution: PSO Feature Selection
 
 My primary contribution focused on the feature-selection component of DataNova.
