@@ -1,0 +1,15 @@
+pandas
+numpy
+openai
+python-dotenv
+langgraph
+reportlab
+python-pptx
+scikit-learn
+xgboost
+shap
+matplotlib
+joblib
+pyswarms
+plotly
+streamlit>=1.50

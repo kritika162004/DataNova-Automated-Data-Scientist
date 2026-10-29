@@ -1,0 +1,17 @@
+Dataset: german_credit.csv   splits: 10   PSO: 20 particles x 30 iterations
+
+       model             method  AUC_mean  AUC_std  F1_mean  n_features
+      LogReg       All Features    0.7882   0.0339   0.6153        61.0
+      LogReg  Genetic Algorithm    0.7840   0.0282   0.6108        26.0
+      LogReg Mutual Information    0.7723   0.0317   0.5879        26.0
+      LogReg                PSO    0.7759   0.0220   0.6056        26.0
+      LogReg                RFE    0.7763   0.0362   0.6055        26.0
+RandomForest       All Features    0.7921   0.0314   0.6082        61.0
+RandomForest  Genetic Algorithm    0.7766   0.0255   0.5983        26.0
+RandomForest Mutual Information    0.7720   0.0324   0.5819        26.0
+RandomForest                PSO    0.7764   0.0205   0.5914        26.0
+RandomForest                RFE    0.7713   0.0299   0.5825        26.0
+
+Paired difference PSO - All Features (AUC) across splits:
+  LogReg: mean -0.0124, std 0.0173, PSO better in 5/10 splits
+  RandomForest: mean -0.0157, std 0.0159, PSO better in 2/10 splits
